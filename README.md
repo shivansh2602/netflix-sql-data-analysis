@@ -82,39 +82,35 @@ Objective: Identify the top 10 actors with the most appearances in Indian-produc
 Objective: Categorize content as 'Bad' if it contains 'kill' or 'violence' and 'Good' otherwise. Count the number of items in each category.
 
 ##📊 Key Insights
-###  Content Distribution
 
-Movies dominate Netflix’s catalog, significantly outnumbering TV Shows.
-This indicates Netflix prioritizes movie acquisitions and productions for rapid content scaling.
 
-###  Rating Analysis
+ Content Distribution:
+  Movies dominate Netflix’s catalog, significantly outnumbering TV Shows.
+  This indicates Netflix prioritizes movie acquisitions and productions for rapid content scaling.
 
-TV-MA is the most frequent rating across the platform.
-This suggests a strong focus on mature audiences.
-Family-friendly content (like G or PG) represents a smaller portion of the catalog.
+ Rating Analysis:
+  TV-MA is the most frequent rating across the platform.
+  This suggests a strong focus on mature audiences.
+  Family-friendly content (like G or PG) represents a smaller portion of the catalog.
 
-###  Geographic Contribution
+ Geographic Contribution:
+  The United States contributes the highest volume of content.
+  India ranks among the top content-producing countries.
+  Regional content production reflects Netflix’s localization strategy.
 
-The United States contributes the highest volume of content.
-India ranks among the top content-producing countries.
-Regional content production reflects Netflix’s localization strategy.
+ Growth Trend Analysis:
+  A sharp increase in content additions is visible after 2016.
+  This aligns with Netflix’s global expansion strategy.
+  Indian content production has shown steady growth year over year.
 
-###  Growth Trend Analysis
+ Genre Dominance:
+  Drama and International Movies appear among the most common categories.
+  Multi-genre tagging increases discoverability and content reach.
 
-A sharp increase in content additions is visible after 2016.
-This aligns with Netflix’s global expansion strategy.
-Indian content production has shown steady growth year over year.
-
-###  Genre Dominance
-
-Drama and International Movies appear among the most common categories.
-Multi-genre tagging increases discoverability and content reach.
-
-###  Content Classification (Keyword-Based)
-
-Using conditional logic in SQL:
-Content containing keywords like “kill” or “violence” was categorized as “Intense”
-Remaining content was categorized as “General”
+ Content Classification (Keyword-Based)
+  Using conditional logic in SQL:
+  Content containing keywords like “kill” or “violence” was categorized as “Intense”
+  Remaining content was categorized as “General”
 
 
 This demonstrates:
